@@ -27,7 +27,6 @@ A: The hypothesis is supported by the data from Lot1 and Lot2, but the data from
 
 ## Deliverable 3: T-Tests on Suspension Coils
 
-- There is a summary of the t-test results across all manufacturing lots and for each lot.
 
 ![ttest_all.png](/Resources/Photos/ttest_all.png)
 
