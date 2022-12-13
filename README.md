@@ -1,6 +1,6 @@
 # MechaCarChallenge
 ## Deliverable 1: Predict MPG using Linear Regression
-![D1_linear_regression.png](/Resources/D1_linear_regression.png)
+![D1_linear_regression.png](/Resources/Photos/D1_linear_regression.png)
 
 Q: Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 A: The variance of vehicle length and ground clearance are not random and have a low p-value when applied to the mpg.
@@ -15,10 +15,10 @@ A: The linear regression model is effective because it explains about 70% of the
 ## Deliverable 2: Suspension Coils Summary
 
 ## Summary Statistics on Suspension Coils
-![D2_lot_summary.png](/Resources/D2_lot_summary.png)
+![D2_lot_summary.png](/Resources/Photos/D2_lot_summary.png)
 
 
-![D2_total_summary.png](/Resources/D2_total_summary.png)
+![D2_total_summary.png](/Resources/Photos/D2_total_summary.png)
 
 Q: There is a summary that addresses the design specification requirement for all the manufacturing lots and each lot individually
 A: The hypothesis is supported by the data from Lot1 and Lot2, but the data from Lot3 shows too much variance in the PSI measurements to support the hypothesis. This suggests that the hypothesis may not hold for all lots, and further investigation may be needed to understand the reasons for the variance in the PSI measurements in Lot3.
@@ -29,13 +29,13 @@ A: The hypothesis is supported by the data from Lot1 and Lot2, but the data from
 
 - There is a summary of the t-test results across all manufacturing lots and for each lot.
 
-![ttest_all.png](/Resources/ttest_all.png)
+![ttest_all.png](/Resources/Photos/ttest_all.png)
 
-![ttest_lot1.png](/Resources/ttest_lot1.png)
+![ttest_lot1.png](/Resources/Photos/ttest_lot1.png)
 
-![ttest_lot2.png](/Resources/ttest_lot2.png)
+![ttest_lot2.png](/Resources/Photos/ttest_lot2.png)
 
-![ttest_lot3.png](/Resources/ttest_lot3.png)
+![ttest_lot3.png](/Resources/Photos/ttest_lot3.png)
 
 The p-value for all lots is 1, indicating that there is no significant difference between the PSI measurements for the different lots. This means that the hypothesis is supported by the data from all lots. However, the p-value for Lot3 is less than 0.05, indicating that there is a significant difference in the PSI measurements for this lot, and the hypothesis is rejected for this lot. This suggests that there may be some factors that are affecting the PSI measurements in Lot3, and further investigation may be needed to understand the reasons for this.
 
